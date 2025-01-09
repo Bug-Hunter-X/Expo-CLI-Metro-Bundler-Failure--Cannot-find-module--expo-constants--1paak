@@ -1,0 +1,1 @@
+While using Expo CLI, I encountered an issue where the Metro bundler would fail to start, producing an error message similar to 'Cannot find module 'expo-constants'.  This happened after updating Expo Go or the Expo CLI. The project's package.json correctly listed 'expo-constants' as a dependency, and running `npm install` or `yarn install` did not resolve the problem. 
